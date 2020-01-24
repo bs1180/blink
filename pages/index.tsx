@@ -13,7 +13,9 @@ const IndexPage: NextPage = () => {
         backgroundImage: "linear-gradient( 109.6deg,  rgba(31,179,237,1) 11.2%, rgba(17,106,197,1) 91.1% )"
       }}
     >
-      <Head>Blink Festival</Head>
+      <Head>
+        <title>Blink Festival</title>
+      </Head>
       <div className="mx-auto w-full max-w-xl my-16 mx-4 py-16">
         <div
           className="bg-white border-solid border-black border-4 flex flex-col justify-content items-center mx-4"
