@@ -2,6 +2,7 @@ import * as React from "react";
 import { NextPage } from "next";
 import Girl from "../components/Girl";
 import Logo from "../components/Logo";
+import SignupForm from "../components/SignupForm";
 
 const IndexPage: NextPage = () => {
   return (
@@ -19,6 +20,7 @@ const IndexPage: NextPage = () => {
         <Logo className="w-64" />
         <div>Coming soon!</div>
         <div>Join our mailing list...</div>
+        <SignupForm />
       </div>
 
       <Girl className="absolute bottom-0 left-0" />
