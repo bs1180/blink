@@ -16,14 +16,14 @@ const IndexPage: NextPage = () => {
       <Head>
         <title>Blink Festival</title>
       </Head>
-      <div className="mx-auto w-full max-w-xl my-16 mx-4 py-16">
+      <div className="mx-auto w-full max-w-xl my-16 lg:my-8 mx-4 py-16">
         <div
           className="bg-white border-solid border-black border-4 flex flex-col justify-content items-center mx-4"
           style={{ boxShadow: "10px 10px 0px 0px rgba(0,0,0,1)" }}
         >
           <Logo className="w-64 -mt-24" width="300px" height="150px" style={{ transform: "translateY(0px)" }} />
 
-          <div className="p-4 sm:p-8 md:p-16 md:pt-8 flex flex-col justify-center items-center relative">
+          <div className="p-4 sm:p-8 md:p-16 md:pt-8 flex flex-col justify-center items-center relative overflow-hidden">
             <div className="mb-8">
               <p>Dear improvisers!</p>
               <p className="pt-6">
