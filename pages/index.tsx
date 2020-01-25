@@ -24,7 +24,7 @@ const IndexPage: NextPage = () => {
           <Logo className="w-64 -mt-24" width="300px" height="150px" style={{ transform: "translateY(0px)" }} />
 
           <div className="p-4 sm:p-8 md:p-16 md:pt-8 flex flex-col justify-center items-center relative overflow-hidden">
-            <div className="mb-8">
+            <div className="mb-8 z-20">
               <p>Dear improvisers!</p>
               <p className="pt-6">
                 We're organising an exciting new improv festival to be held <strong>12 – 14 June 2020</strong> at
@@ -40,7 +40,10 @@ const IndexPage: NextPage = () => {
             </div>
 
             <SignupForm />
-            <Girl className="lg:hidden bottom-0 left-0 block absolute" style={{ opacity: "0.05" }} />
+            <Girl
+              className="lg:hidden bottom-0 left-0 block absolute z-10 pointer-events-none"
+              style={{ opacity: "0.05" }}
+            />
           </div>
         </div>
       </div>
