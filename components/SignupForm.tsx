@@ -14,7 +14,8 @@ const SignupForm = () => {
         autoCorrect="off"
         name="MERGE0"
         id="MERGE0"
-        className="bg-gray-200 px-5 py-4 border-black border-r-0 border-solid flex-2"
+        className="bg-gray-200 px-5 py-4 border-black border-r-0 border-solid"
+        style={{ flex: 2 }}
         placeholder="bob@example.com"
       />
       <button type="submit" className="bg-gray-400 text-gray-700 hover:bg-black hover:text-white px-5 py-4 flex-1">
