@@ -14,7 +14,7 @@ const IndexPage: NextPage = () => {
       }}
     >
       <Head>
-        <title>Blink Festival</title>
+        <title>BLINK! Impro-Festival</title>
       </Head>
       <div className="mx-auto w-full max-w-xl my-16 lg:my-8 mx-4 py-16">
         <div
