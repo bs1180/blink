@@ -32,7 +32,7 @@ const IndexPage: NextPage = () => {
                 <a href="https://spektakel.wien/" className="font-bold hover:underline">
                   Spektakel Theatre
                 </a>{" "}
-                in Vienna, Austria. There will be workshops, jam sessions and performances in both English and
+                in Vienna, Austria. There will be training, jam sessions and performances in both English and
                 German.
               </p>
               <p className="pt-6">To stay informed please join our mailing list.</p>
