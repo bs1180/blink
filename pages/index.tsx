@@ -32,7 +32,7 @@ const GermanContent = () => (
     <p>Hallo Improspieler!</p>
     <p className="pt-6">
       Wir planen gerade ein aufregendes neues Improtheater-Festival, dass{" "}
-      <strong>vom 12. bis 14. Juni 2020</strong> im{" "}
+      vom <strong>12. bis 14. Juni 2020</strong> im{" "}
       <a href="https://spektakel.wien/" className="font-bold hover:underline">
         Theater Spektakel
       </a>{" "}
@@ -41,7 +41,7 @@ const GermanContent = () => (
       was wie ein ganzes Wochenende lang Impro-Party!
     </p>
     <p className="pt-6">
-      Um auf dem laufenden zu bleiben, trage hier Deine eMail-Adresse ein und gib uns ein{" "}
+      Um auf dem Laufenden zu bleiben, trage hier Deine eMail-Adresse ein und gib uns ein{" "}
       <a className="underline hover:underline" href="https://www.facebook.com/BLINK.Improfestival">
          'Like' auf Facebook!
       </a>
