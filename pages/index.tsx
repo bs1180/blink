@@ -41,9 +41,9 @@ const GermanContent = () => (
       was wie ein ganzes Wochenende lang Impro-Party!
     </p>
     <p className="pt-6">
-      Um auf dem laufenden zu bleiben, trage hier deine eMail-Adresse ein und gib uns{" "}
+      Um auf dem laufenden zu bleiben, trage hier Deine eMail-Adresse ein und gib uns ein{" "}
       <a className="underline hover:underline" href="https://www.facebook.com/BLINK.Improfestival">
-        ein 'Like' auf Facebook!
+         'Like' auf Facebook!
       </a>
     </p>
   </>
@@ -72,20 +72,20 @@ const IndexPage: NextPage = () => {
               onClick={() => setLanguage("EN")}
               className={language === "EN" ? "text-gray-500 font-bold" : "text-gray-500"}
             >
-              EN
+              English
             </button>
             <div className="mx-1">·</div>
             <button
               onClick={() => setLanguage("DE")}
               className={language === "DE" ? "text-gray-500 font-bold" : "text-gray-500"}
             >
-              DE
+              Deutsch
             </button>
           </div>
           <div className="p-4 sm:p-8 md:p-16 md:pt-8 flex flex-col justify-center items-center relative overflow-hidden">
             <div className="mb-8 z-20">
               {language === "EN" ? <EnglishContent /> : <GermanContent />}
-              <p className="pt-4 text-right text-gray-500">-- Christof, Hanni, Shawn, Florian, Coline and Ben</p>
+              <p className="pt-4 text-right text-gray-500">-- Christof, Hanni, Shawn, Florian, Coline und Ben</p>
             </div>
 
             <SignupForm />
