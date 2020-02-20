@@ -6,4 +6,36 @@
 
 @import "tailwindcss/utilities";
 
-@import "./custom.css";
+.markdown h1 {
+  @apply text-2xl;
+}
+
+.markdown h3 {
+  @apply font-medium text-xl;
+}
+
+.markdown p {
+  @apply pt-6;
+}
+
+.markdown a {
+  @apply underline;
+}
+
+.markdown td {
+  @apply text-center px-4 py-2 border-b w-64;
+}
+
+.markdown th {
+  @apply p-4 border-b border-black;
+}
+
+.markdown table {
+  @apply hidden;
+}
+
+@screen sm {
+  .markdown table {
+    @apply block;
+  }
+}
