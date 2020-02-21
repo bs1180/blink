@@ -48,7 +48,7 @@ const IndexPage: NextPage = () => {
             <Markdown source={language === "EN" ? en : de} escapeHtml={false} />
 
             <div className="mb-8 z-20">
-              <p className="pt-4 text-right text-gray-500">-- Christof, Hanni, Shawn, Florian, Coline und Ben</p>
+              <p className="pt-4 text-right text-gray-500">-- Christof, Hanni, Shawn, Florian, Coline, Ben & Sebastien</p>
             </div>
 
             <SignupForm />
