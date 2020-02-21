@@ -9,10 +9,10 @@ Dies wird wohl das dynamischste Festival sein, dass Du je gemacht hast - entsche
 
 Wir werden bald All-Inclusive-Tickets, Tages-Tickets und Nur-Show-Tickets anbieten! Gib uns ein Like/Abonniere unseren Newsletter, um sicherzustellen, dass du dir den Frühbucherrabatt sichern kannst!
 
-| Zeitplan         | Während des Tages           | Abends |
-| ---------------- | --------------------------- | ------ |
-| Freitag 12. Juni |                             | Show   |
-| Samstag 13. Juni | Playshops<br />Jam sessions | Show   |
-| Sonntag 14. Juni | Playshops<br />Jam sessions | Show   |
+| Zeitplan               | Während des Tages           | Abends |
+| ---------------------- | --------------------------- | ------ |
+| Freitag 12. Juni       |                             | Show   |
+| Samstag 13. Juni&nbsp; | Playshops<br />Jam sessions | Show   |
+| Sonntag 14. Juni       | Playshops<br />Jam sessions | Show   |
 
 Wenn Du daran interessiert bist, zusammen mit Deiner Gruppe oder den Teilnehmern des Festivals eine Show zu auf die Beine zu stellen, einen Playshop zu veranstalten oder andere Fragen und Ideen hast, [kontaktiere uns](mailto:improv@blink-festival.at) bitte!
