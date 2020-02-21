@@ -9,9 +9,9 @@ This will be the most dynamic festival you've ever participated in - you decide 
 We will offer All-Inclusive tickets, One-Day tickets, and Show-Only tickets soon! [Like our page](https://www.facebook.com/BLINK.Improfestival/) or join our mailing list below to make sure you’ll get the early bird discount.
 
 | Schedule         | During the day              | Evening |
-| ---------------- | --------------------------- | ------- |
-| Friday 12th June |                             | Show    |
-| Sat 13th June    | Playshops<br />Jam sessions | Show    |
-| Sun 14th June    | Playshops<br />Jam sessions | Show    |
+| ---------------------- | --------------------------- | ------- |
+| Friday<br />12th June  |                             | Show    |
+| Saturday<br />13th June| Playshops<br />Jam sessions | Show    |
+| Sunday<br />14th June  | Playshops<br />Jam sessions | Show    |
 
 If you are interested in putting on a show together with your group or festival participants, want to host a playshop or have other questions and ideas, please [contact us](mailto:improv@blink-festival.at)!
