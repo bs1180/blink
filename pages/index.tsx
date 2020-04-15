@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { NextPage } from "next";
 import Girl from "../components/Girl";
 import Logo from "../components/Logo";
@@ -12,12 +12,11 @@ import en from "../content/en.md";
 import de from "../content/de.md";
 
 const IndexPage: NextPage = () => {
-  const [language, setLanguage] = useState("EN");
   return (
     <div
       className="bg-blue-200 min-h-screen flex md:items-center justify-center"
       style={{
-        backgroundImage: "linear-gradient( 109.6deg,  rgba(31,179,237,1) 11.2%, rgba(17,106,197,1) 91.1% )"
+        backgroundImage: "linear-gradient( 109.6deg,  rgba(31,179,237,1) 11.2%, rgba(17,106,197,1) 91.1% )",
       }}
     >
       <Head>
@@ -29,7 +28,7 @@ const IndexPage: NextPage = () => {
           style={{ boxShadow: "10px 10px 0px 0px rgba(0,0,0,1)" }}
         >
           <Logo className="w-64 -mt-24" width="300px" height="150px" style={{ transform: "translateY(0px)" }} />
-          <div className="flex items-center justify-end">
+          {/* <div className="flex items-center justify-end">
             <button
               onClick={() => setLanguage("EN")}
               className={language === "EN" ? "text-gray-500 font-bold" : "text-gray-500"}
@@ -43,12 +42,14 @@ const IndexPage: NextPage = () => {
             >
               Deutsch
             </button>
-          </div>
+          </div> */}
           <div className="p-4 sm:p-8 md:p-16 md:pt-8 flex flex-col justify-center items-center relative overflow-hidden markdown">
-            <Markdown source={language === "EN" ? en : de} escapeHtml={false} />
+            <Markdown source={en} escapeHtml={false} />
 
             <div className="mb-8 z-20">
-              <p className="pt-4 text-right text-gray-500">-- Christof, Hanni, Shawn, Florian, Coline, Ben & Sebastien</p>
+              <p className="pt-4 text-right text-gray-500">
+                -- Christof, Hanni, Shawn, Florian, Coline, Ben & Sebastien
+              </p>
             </div>
 
             <SignupForm />
